@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robinhood Crypto – Bonus 25 €</title>
+    <title>ProfitGrid – Zarabiaj mądrze, mobilnie</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,56 +13,47 @@
         <p class="tagline">Zarabiaj mądrze, mobilnie.<br><em>Smart. Mobile. Profitable.</em></p>
         <nav>
             <ul>
-                <li><a href="index.html#about">O nas</a></li>
-                <li><a href="index.html#recommended">Polecane aplikacje</a></li>
-                <li><a href="robinhood.html">Robinhood</a></li>
-                <li><a href="index.html#register">Dołącz</a></li>
+                <li><a href="#about">O nas</a></li>
+                <li><a href="#apps">Polecane aplikacje</a></li>
+                <li><a href="#register">Dołącz</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h2>Zgarnij 25 € w kryptowalutach za rejestrację z naszego polecenia!</h2>
-            <p>Robinhood Crypto wkracza na europejski rynek z atrakcyjnym bonusem dla nowych użytkowników. Rejestrując się z <strong>naszego polecenia</strong>, możesz otrzymać <strong>25 € w kryptowalutach</strong> – szybko, prosto i bez ukrytych kosztów.</p>
+        <section id="about">
+            <h2>O nas</h2>
+            <p>ProfitGrid to platforma, która łączy najlepsze sposoby na zysk z aplikacji mobilnych, programów partnerskich oraz okazji kryptowalutowych. Wszystko w jednym miejscu, w języku polskim i angielskim.</p>
+        </section>
 
-            <h3>✅ Jak odebrać bonus?</h3>
-            <ol>
-                <li><a href="https://join.robinhood.com/eu_crypto/szymonk-4412a8/">Kliknij w link z naszego polecenia</a></li>
-                <li>Wprowadź adres e-mail (użyj tego samego w aplikacji)</li>
-                <li>Pobierz aplikację Robinhood Crypto i dokończ rejestrację</li>
-                <li>Zweryfikuj tożsamość</li>
-                <li>Wpłać min. 25 € i wykonaj pierwszą transakcję</li>
-                <li>Odbierz bonus 25 € w BTC, ETH, USDC, AVAX i BONK</li>
-            </ol>
+        <section id="apps">
+            <h2>Polecane aplikacje</h2>
+            <div class="app-card">
+                <h3>Robinhood Crypto</h3>
+                <p>Zgarnij 25 € w kryptowalutach za rejestrację. Dodatkowo 100 € za każdego znajomego!</p>
+                <a href="robinhood.html" class="button">Zobacz szczegóły</a>
+            </div>
+            <div class="app-card">
+                <h3>Binance</h3>
+                <p>Bonus na start + zniżki na prowizje. Największa giełda na świecie!</p>
+                <a href="binance.html" class="button">Zobacz szczegóły</a>
+            </div>
+            <div class="app-card">
+                <h3>ZEN.com</h3>
+                <p>Cashback i darmowe zakupy online z ochroną płatności.</p>
+                <a href="zen.html" class="button">Zobacz szczegóły</a>
+            </div>
+        </section>
 
-            <h3>💰 Program poleceń: 100 € za każdego znajomego!</h3>
-            <ul>
-                <li>Ty otrzymujesz 100 €, znajomy 25 €</li>
-                <li>Max. 30 osób = aż 3000 €</li>
-                <li>5 tokenów: BTC, ETH, BONK, USDC, AVAX</li>
-                <li>Nagrody dostępne po 180 dniach</li>
-            </ul>
-
-            <h3>🎓 Zdobądź kryptowaluty rozwiązując quizy!</h3>
-            <p>Program „Learn & Earn” pozwala zdobyć tokeny za poprawne odpowiedzi:</p>
-            <ul>
-                <li><strong>USDC</strong> – 5 €</li>
-                <li><strong>BTC</strong> – 1 €</li>
-                <li><strong>AVAX</strong> – 2 €</li>
-                <li><strong>PEPE</strong> – 1 €</li>
-                <li><strong>BONK</strong> – 2 €</li>
-            </ul>
-            <p><strong>Uwaga:</strong> niektóre quizy wymagają obrotu min. 20 €.</p>
-
-            <h3>🛡️ Dlaczego Robinhood Crypto?</h3>
-            <ul>
-                <li>0% prowizji przy zakupie BTC</li>
-                <li>Staking ETH i SOL – Robinhood podwaja zarobek (do 10 000 €)</li>
-                <li>Bonusy za naukę i quizy</li>
-                <li>Przejrzysta, prosta aplikacja mobilna (Android/iOS)</li>
-                <li>Bezpieczne przechowywanie środków (zimne portfele)</li>
-            </ul>
+        <section id="register">
+            <h2>Dołącz do ProfitGrid</h2>
+            <form>
+                <label for="email">Adres e-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Hasło:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Zarejestruj się</button>
+            </form>
         </section>
     </main>
 
